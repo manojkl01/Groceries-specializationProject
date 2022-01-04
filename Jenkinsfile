@@ -6,7 +6,9 @@ pipeline {
     stages{
         stage('Build'){
             steps{
-                  sh script: 'mvn clean package'
+                 cleanWs()
+                 checkout scm
+                echo "Building ${env.project1}..."
             }
         }
     }
