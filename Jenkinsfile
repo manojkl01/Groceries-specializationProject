@@ -17,7 +17,7 @@ pipeline {
                    [
                         artifactId: 'Groceryrepo1',
                        classifier: '',
-                       file: '/var/lib/jenkins/jobs/GroceryStore1/config.xm',
+                       file: '/var/lib/jenkins/jobs/GroceryStore1/config.xml',
                       type: 'war'
                  ]
              ],
